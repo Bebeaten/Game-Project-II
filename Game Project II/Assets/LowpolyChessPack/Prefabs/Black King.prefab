@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 2313672}
   - component: {fileID: 6463018}
   - component: {fileID: 8737748498598604539}
+  - component: {fileID: -7616956292580311118}
+  - component: {fileID: 119197981334970213}
   m_Layer: 0
   m_Name: Black King
   m_TagString: Untagged
@@ -122,3 +124,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079ae78a599ece6418850b10c99484af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &-7616956292580311118
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130826}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.3331149, y: 3.4780853, z: 1.3128619}
+  m_Center: {x: 0.00000020861626, y: 1.5668114, z: 0.020409167}
+--- !u!114 &119197981334970213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0190a21be4e66c9439548fd2c44bfb04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pieceType: 5
+  isWhite: 0

@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 2374884}
   - component: {fileID: 6428222}
   - component: {fileID: 3699642494301129711}
+  - component: {fileID: -2243568962700822206}
+  - component: {fileID: 3433416286570140569}
   m_Layer: 0
   m_Name: Black Knight
   m_TagString: Untagged
@@ -122,3 +124,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079ae78a599ece6418850b10c99484af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-2243568962700822206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0190a21be4e66c9439548fd2c44bfb04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pieceType: 2
+  isWhite: 0
+--- !u!65 &3433416286570140569
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196802}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0526323, y: 2.304227, z: 1.0904684}
+  m_Center: {x: -0.016363293, y: 0.97988236, z: 0}

@@ -20,26 +20,26 @@ public class PieceSelected : MonoBehaviour
 
     void Awake()
     {
-        // Singleton setup
         if (Instance != null && Instance != this)
         {
             Destroy(this.gameObject);
         }
-        else
-        {
-            Instance = this;
-        }
+        else Instance = this;
     }
 
     public void SetSelectedObject(GameObject obj)
     {
         selectedObject = obj;
-        print("Selected object: " + selectedObject.name);
+        Debug.Log("Selected piece: " + obj.name);
     }
 
     public GameObject GetSelectedObject()
     {
-		return selectedObject;
+        return selectedObject;
     }
-	
+
+    public void ClearSelection()
+    {
+        selectedObject = null;
+    }
 }

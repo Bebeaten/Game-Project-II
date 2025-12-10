@@ -19,8 +19,8 @@ public class SpotsOnBoard : MonoBehaviour
 
     void OnMouseDown()
     {
-        print($"Clicked Spot at ({boardX}, {boardZ})");
-        // Call manager or piece logic here if needed
+        SpotsSelected.Instance.SetSelectedSpot(this.gameObject);
+        Debug.Log($"Clicked Spot ({boardX}, {boardZ})");
     }
 	
 }

@@ -6,12 +6,12 @@ public class SelectPiece : MonoBehaviour
 {
 	
 	void OnMouseEnter(){
-		print("Piece:OnMouseEnter()");
+		//print("Piece:OnMouseEnter()");
 		
 	}
 	
 	void OnMouseExit(){
-		print("Piece:OnMouseExit()");
+		//print("Piece:OnMouseExit()");
 		
 	}
 	
